@@ -50,11 +50,23 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  background: url("grasmaaier.png");
+  text-align: left;
+  color: white;
+  padding-top: 20px;
+}
+
+.jumbotron h1 {
+  font-size: 27px;
 }
 
 .jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+  font-size: 15px;
+  padding: 5px 13px;
+}
+
+.form-control {
+  width: 50%;
 }
 
 /* Supporting marketing content */
